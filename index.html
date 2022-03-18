@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shoutcut icon" href="./images/fv.png">
     <!-- script:src -->
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
     <script src="./script/jquery-1.12.3.js"></script>
     <script>
         $(function(){
-            $("button").click(function(){
+            $("#menubtn").click(function(){   // #menubtn 으로 수정
                 $("#menu").slideToggle();
             });
         });
@@ -34,7 +35,9 @@
                     <!-- .menus>button.menubtn{&#9776;} -->
 
                     <!-- toggle -->
-                    <div class="menus"><button id="menubtn">&#9776;</button></div>
+                    <div class="menus">
+                        <!-- <button id="menubtn">&#9776;</button></div> -->
+                    <a href="#" id="menubtn"><i class="fas fa-bars"></i></a>
                     <!-- menu -->
                     <!-- nav#menu.menu -->
                     <nav id="menu">

@@ -21,13 +21,14 @@ a {text-decoration: none;}
 header h1.logo img {width: 50px; height: 50px; margin-top: 7px;} 
 
 /* toggle */
-header button#menubtn {display: block; /* 보기 */
-    font-size: 19px; /* 수정 ★ */
+header a#menubtn {display: block; /* 보기 */
+    color: #007042; /* 수정 ★ */
+    font-size: 30px; /* 수정 ★ */
     background: #fff;
-    border:1px solid #007042;
-    border-radius: 5px; 
-    padding: 5px 12px; /* 수정 ★ */
-    margin: -4px 0 5px 0; /* 수정 ★ */
+    /* border:1px solid #007042; */
+    /* border-radius: 5px;  */
+    /* padding: 5px 12px; 수정 ★ */
+    margin: 0 0 5px 0; /* 수정 ★ */
     cursor:pointer;
     position: absolute; top: 13px; right: 15px;
 }
@@ -46,7 +47,7 @@ header nav#menu ul li a {
     display: block; padding: 10px;
     margin-bottom: 5px; /* 추가 */
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
 }
 header nav#menu ul li a:hover,
 header nav#menu ul li a:focus {background: #eee; border-radius: 50px;}
@@ -159,7 +160,7 @@ footer .copyright p strong a:hover {color: #007042;}
     header .header_box .menus {float: right; width: auto;}
 
     /* toggle - pc에서 가리기 */
-    header button#menubtn {display: none;}
+    header a#menubtn {display: none;}   /* a# 로 수정★ */ 
 
     header nav#menu {
     display: block; /* 보기 */
