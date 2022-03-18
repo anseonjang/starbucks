@@ -164,7 +164,7 @@ footer .copyright p strong a:hover {color: #007042;}
 
     header nav#menu {
     display: block; /* 보기 */
-    margin-top: 10px;
+    margin-top: 4px; /* 수정★ */ 
     }
     header nav#menu ul {float: right; margin-right: -9px;}
     header nav#menu ul::after {content:''; display: block; clear:both;}
